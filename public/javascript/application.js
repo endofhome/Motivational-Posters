@@ -37,5 +37,8 @@ $(document).on('change', '#align', function() {
 	$("#caption").css("text-align", $(this).val());
 });
 
+$(document).on('change', '#variant', function() {
+	$("#caption").css("font-variant", $(this).val());
+});
 
 

@@ -9,7 +9,16 @@
   <title>Motivational Posters</title>
 </head>
 <body>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 <header>
+  <img src="/images/logo.png">
   <h1>Motivational Posters</h1>
 </header>  
 <section id="select-image">
@@ -43,25 +52,42 @@
          	<option>yellow</option>
          	<option>gray</option>
          	<option>orange</option>
+         	<option>PowderBlue</option>
+         	<option>SlateBlue</option>
+         	<option>Purple</option>
+         	<option>Olive</option>
+         	<option>Maroon</option>
+         	<option>LightSalmon</option>
+         	<option>FireBrick</option>
+         	<option>Crimson</option>
+         	<option>Chocolate</option>
+         	<option>BlanchedAlmond</option>
         	</select>
         Align: <select id="align">
         	<option>Left</option>
         	<option>Right</option>	
         	</select>
+        Type: <select id="variant">	
+            <option>normal</option>
+            <option>small-caps</option>
+        	</select>
 	</div>
-	<div id="twitter">
+	<div id="social-networks">
 		<a href="https://twitter.com/share" class="twitter-share-button" data-text="I built a 'Motivational Posters' page today at home on the @makersacademy Ronin course!" data-via="ruralmyth">Tweet</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	</div>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+	<div class="fb-like" data-href="https://nameless-plateau-7403.herokuapp.com/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 </section>
 </body>
 </html>
 <footer>
 	<a href="http://www.makersacademy.com/"><img src="http://rosshepburn.com/blog/makers/wp-content/uploads/2014/03/Makers_Academy_Logo1.png"></a>
 	<div>
-		I built this page on the Ronin course by Makers Academy, a highly selective 12 week coding course you can take online.</a>
+		I built this page on the <a href="http://ronin.makersacademy.com">Ronin course by Makers Academy, a highly selective 12 week coding course you can take online.</a>
 	</div>
 	<div>
-	 This page uses Google Image search, Ruby, Sinatra, Javascript, jQuery, HTML and CSS.
+	 This page uses <a href="https://developers.google.com/image-search/">Google Image search</a>, <a href="https://www.ruby-lang.org">Ruby</a>, <a href="http://www.sinatrarb.com/">Sinatra</a>, <a href="https://www.javascript.com/">Javascript</a>, <a href="https://jquery.com/">jQuery</a>, <a href="http://www.w3.org/html/">HTML</a> and <a href="http://www.w3.org/Style/CSS/">CSS</a>.
 	 </div>
+	 <div>
+	 Built by Tom Barnes.
+	</div>
 </footer> 
