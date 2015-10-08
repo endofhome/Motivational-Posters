@@ -27,6 +27,12 @@ body {
 
 #social-networks {
     line-height: 10px;
+    display: inline-block;
+}
+
+.fb-like {
+	line-height: 10px;
+	display: inline-block;
 }
 
 #workspace img {
@@ -56,7 +62,7 @@ body {
 	font-family: Helvetica;
 	font-variant: normal;
 	text-shadow: 0 0 5px rgba(0,0,0,0.4);
-	width: 400px;
+	width: 500px;
 	font-size: 32px;
 	color: FireBrick;
 	margin: 0;
